@@ -1,7 +1,7 @@
 (ns day1)
 
 
-(let [input (-> (slurp "e:/projects/adventofcode2022/day1/input.txt")
+(let [input (-> (slurp "src/day1/input.txt")
                 (clojure.string/split-lines))
       totals 
       (->> 

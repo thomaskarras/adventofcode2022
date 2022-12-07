@@ -2,3 +2,7 @@
 .calva/output-window/output.calva-repl
 .clj-kondo
 .lsp
+.calva/deps.clj.jar
+.cpcache
+.joyride/.nrepl-port
+.nrepl-port

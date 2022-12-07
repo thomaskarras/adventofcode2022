@@ -26,7 +26,7 @@
     ["B" "X"] 1  ;lose with rock
     ["C" "Y"] 6)) ;draw with scissors
 
-(let [input (->> (slurp "e:/projects/adventofcode2022/day2/input.txt")
+(let [input (->> (slurp "src/day2/input.txt")
                 (clojure.string/split-lines)
                 (map #(clojure.string/split % #" ")))
       ]

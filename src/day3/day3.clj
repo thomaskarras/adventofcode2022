@@ -8,7 +8,7 @@
         (zipmap (range 1 53)))))
 
 (def input (-> 
-            (slurp "e:/projects/adventofcode2022/day3/input.txt")
+            (slurp "src/day3/input.txt")
             (clojure.string/split-lines)))
 
 (let [row (split-at (/ (alength (to-array (first input))) 2) (first input))]

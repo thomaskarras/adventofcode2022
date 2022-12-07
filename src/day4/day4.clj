@@ -2,7 +2,7 @@
 
 
 (def input (-> 
-            (slurp "e:/projects/adventofcode2022/day4/input.txt")
+            (slurp "src/day4/input.txt")
             (clojure.string/split-lines)))
 
 
